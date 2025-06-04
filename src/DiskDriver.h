@@ -10,7 +10,6 @@
 
 /*
  * @brief: 模拟磁盘，支持挂载磁盘模拟文件、读写头前后移动（以字节为单位）、初始化磁盘功能
- * @author: AlexHoring
  */
 class DiskDriver {
 public:
