@@ -1,6 +1,4 @@
-//
-// Created by AlexHoring on 2023/5/25.
-//
+
 
 #ifndef FILESYSTEM_DIRECTORYITEM_H
 #define FILESYSTEM_DIRECTORYITEM_H
@@ -11,11 +9,11 @@
 /*
  * @brief 目录项
  */
-class DirectoryItem {
+class DirectoryItem
+{
 public:
-    uint32_t inodeIndex;         //本目录项指向的i节点所在的磁盘块号
-    char name[FILE_NAME_LENGTH];          //文件名\目录名
+    uint32_t inodeIndex;         // 本目录项指向的i节点所在的磁盘块号
+    char name[FILE_NAME_LENGTH]; // 文件名\目录名
 };
 
-
-#endif //FILESYSTEM_DIRECTORYITEM_H
+#endif // FILESYSTEM_DIRECTORYITEM_H

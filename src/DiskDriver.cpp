@@ -1,6 +1,3 @@
-//
-// Created by AlexHoring on 2023/5/23.
-//
 
 #include "DiskDriver.h"
 
